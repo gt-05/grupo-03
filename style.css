@@ -63,3 +63,22 @@ align-items: center;
  gap:0 15px ;
 
 }
+
+.rodape{
+    width: 100%;
+   font: 100px; ; background-color:black;
+   text-align: center;
+    height: 50px;
+    display:flex;
+    align-items: center;
+
+    
+}
+.rodape h3{
+    font-size: 16px; 
+    color:white;
+    text-align: center;
+    margin:0 auto;
+    
+
+}	
