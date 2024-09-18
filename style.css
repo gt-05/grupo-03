@@ -18,7 +18,7 @@ nav{
     background-color: #fff;
 }
 
-ul{
+.menu{
     list-style: none;
     width: 50vw;
     display: flex;
@@ -26,7 +26,7 @@ ul{
     justify-content: space-evenly;
 }
 
-ul li a{
+.item-link{
     color: #333333;
     text-decoration: none;
     font-weight: 600;
