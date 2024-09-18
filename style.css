@@ -63,3 +63,20 @@ align-items: center;
  gap:0 15px ;
 
 }
+
+.hero{
+
+    align-items: center;
+    text-align: center;
+    background-color:rgb(158, 153, 153);
+    padding: 40px;
+    gap: 50px 0;
+    
+    
+    }
+    
+    .hero p{
+        margin-top: 10px;
+        font-family: sans-serif;
+    
+    }
