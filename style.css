@@ -31,3 +31,35 @@ nav{
     text-decoration: none;
     font-weight: 600;
 }
+
+.card-mae {
+    background-color: rgb(49, 47, 47);
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 15px; /* Espaço entre os cards */
+    padding: 20px;
+    min-height: 100vh; /* Garante que o container tenha pelo menos 100% da altura da tela */
+
+
+}
+
+.card-item {
+background-color:grey;
+padding: 15px;
+border-radius: 5px;
+max-height: 150;
+max-width: 250px
+
+}
+
+.card {
+display: flex;
+background-color: white;
+margin: 0 auto;
+align-items: center;
+ gap:0 15px ;
+ text-align: center;
+ gap:0 15px ;
+
+}
