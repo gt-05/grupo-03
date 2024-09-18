@@ -82,3 +82,21 @@ align-items: center;
     
 
 }	
+button {
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  .botton{
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
