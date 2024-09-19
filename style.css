@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    height: 80vh;
 }
 
 /* Estilos do cabeçalho */
@@ -19,6 +20,7 @@ header {
     padding: 15px 30px;
     background-color: #fff;
     border-bottom: 2px solid #ddd;
+    height: 10vh;
 }
 
 .logo {
@@ -40,7 +42,7 @@ nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-
+    padding: 0 1rem;
 }
 
 /* Seção de boas-vindas */
@@ -103,9 +105,59 @@ nav a {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
     background-color: #151515;
     color: #fff;
-    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;   
+}
+
+#contato{
+    width: 50vw;
+    margin: 7vh 25vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-weight: 600;
+}
+
+#contato label{
+    padding: 2rem 10rem 0 10rem;
+    align-self: flex-start;
+}
+
+#contato input{
+    margin: .5rem 0;
+    width: 30vw;
+    border: 1px solid #a5a4a4;
+    border-radius: 4px;
+    height: 30px;
+}
+
+#contato textarea{
+    width: 30vw;
+    height: 10rem;
+    border-radius: 4px;
+    border: 1px solid #a5a4a4;
+    margin-top: .5rem;
+}
+
+#contato button{
+    background-color:#333333;
+    color: #fff;
+    font-weight: 800;
+    font: 2rem;
+    width: 20vw;
+    border-radius: 2px;
+    align-self: flex-end;
+    border: none;
+    padding: .5rem 2rem;
+    margin: 1rem 8rem;
+    cursor: pointer;
 }
