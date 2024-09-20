@@ -109,3 +109,40 @@ footer {
     color: #fff;
     margin-top: 200px;
 }
+
+.container{
+
+    text-align: center;
+    padding: 20px ;
+
+
+}
+
+.service-container {
+    width: 100vw;
+    display: flex; /* Usando flexbox para alinhar os cards */
+    flex-direction: column;
+    justify-content: flex-end; /* Alinha os cards à direita */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha, se necessário */
+    align-items: flex-end;
+}
+
+.service-card {
+    background-color: var(--white);
+    padding: 15px; /* Diminuí o padding para reduzir o tamanho */
+    margin-bottom: 20px;
+    margin-right: 30rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 18%; /* Definindo uma largura fixa para os cards */
+    /* Você pode usar um valor percentual, por exemplo, width: 80%; */
+    l
+    
+}
+
+@media (max-width: 600px) {
+    .service-card {
+        width: 30%; /* Ajusta a largura em telas menores */
+    }
+}
