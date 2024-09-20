@@ -165,3 +165,37 @@ footer {
     margin: 1rem 8rem;
     cursor: pointer;
 }
+
+.footer-freight {
+    background-color: #151515;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-top: 70git vh;
+}
+
+.address-box h3 {
+    font-size: 11px;
+    color: #333;
+    line-height: 0.1;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    
+}
+
+.address-box p {
+    font-size: 13px;
+    color: #444343;
+    padding: 0 20px;
+    line-height: 0.1;
+}
+
+.address-container {
+    display: flex; 
+    padding: 20px 0;
+    border-bottom: 2px solid #dddddd;
+    justify-content: right;
+    
+}
