@@ -254,7 +254,6 @@ footer {
     width: 100%;
     height: 36px;
     border: 1px solid;
-
 }
 
 .input-form {
@@ -264,8 +263,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    
-
 }
 
 .input-form  input[type="text"]{
@@ -291,9 +288,15 @@ footer {
     font-size: 14px;
     line-height: 1.43;
 }
+
 .separador{
-display:flex;
-gap:20px;
+    display: flex;
+    gap: 20px;
+}
 
-
+.frete-wrapper{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
