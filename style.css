@@ -13,6 +13,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     height: 80vh;
+    overflow: hidden;
 }
 
 /* Estilos do cabeçalho */
@@ -54,6 +55,7 @@ nav a {
     text-align: center;
     padding: 40px;
     background-color: #f0f0f0;
+    margin-bottom: 1px;
 }
 
 .welcome-section h1 {
