@@ -13,6 +13,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     height: 80vh;
+    overflow: hidden;
 }
 
 /* Estilos do cabeçalho */
@@ -54,6 +55,7 @@ nav a {
     text-align: center;
     padding: 40px;
     background-color: #f0f0f0;
+    margin-bottom: 1px;
 }
 
 .welcome-section h1 {
@@ -235,4 +237,63 @@ footer {
     margin-top: 10px;
     
     
+}
+.box {
+    display: flex;
+    width: 400px;
+    height: 352px;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid rgb(0,0,0,0.3);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.forma {
+    width: 100%;
+    height: 36px;
+    border: 1px solid;
+
+}
+
+.input-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+
+}
+
+.input-form  input[type="text"]{
+    padding-left: 5px;
+
+}
+
+.button {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    width: 350px;
+    height: 36px;
+    justify-content: center;
+}
+
+.etiqueta {
+    align-self: start;
+    margin-bottom: 5px;
+    font-family: "worksans", sans-serif; 
+    color: black ;
+    font-weight: bold; 
+    font-size: 14px;
+    line-height: 1.43;
+}
+.separador{
+display:flex;
+gap:20px;
+
+
 }
