@@ -13,7 +13,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     height: 80vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Estilos do cabeçalho */
@@ -39,7 +39,7 @@ nav ul {
     justify-content: center;
     padding: 0;
     margin: 0;
-    
+
 }
 
 nav a {
@@ -51,7 +51,7 @@ nav a {
 
 /* Seção de boas-vindas */
 .welcome-section {
-    height: 80vh;
+    height: calc(80vh + 15px);
     text-align: center;
     padding: 40px;
     background-color: #f0f0f0;
@@ -74,7 +74,7 @@ nav a {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .feature-item {
@@ -117,11 +117,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;   
-    
+    height: 10vh;
+
 }
 
-#contato{
+#contato {
     width: 50vw;
     margin: 7vh 25vw;
     display: flex;
@@ -135,12 +135,12 @@ footer {
     font-weight: 600;
 }
 
-#contato label{
+#contato label {
     padding: 2rem 10rem 0 10rem;
     align-self: flex-start;
 }
 
-#contato input{
+#contato input {
     margin: .5rem 0;
     width: 30vw;
     border: 1px solid #a5a4a4;
@@ -148,7 +148,7 @@ footer {
     height: 30px;
 }
 
-#contato textarea{
+#contato textarea {
     width: 30vw;
     height: 10rem;
     border-radius: 4px;
@@ -156,8 +156,8 @@ footer {
     margin-top: .5rem;
 }
 
-#contato button{
-    background-color:#333333;
+#contato button {
+    background-color: #333333;
     color: #fff;
     font-weight: 800;
     font: 2rem;
@@ -176,8 +176,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
-    margin-top: 70vh;
 }
 
 .address-box h3 {
@@ -186,7 +184,6 @@ footer {
     line-height: 0.1;
     font-family: sans-serif;
     padding: 15px 20px;
-    
 }
 
 .address-box p {
@@ -197,65 +194,69 @@ footer {
 }
 
 .address-container {
-    display: flex; 
+    display: flex;
     padding: 20px 0;
     border-bottom: 2px solid #dddddd;
     justify-content: right;
-    
+
 }
 
-.container{
-
+.container {
     text-align: center;
-    padding: 20px ;
+    padding: 20px;
     border: 1px rgb(136, 25, 205) solid;
-
 }
 
 .service-container {
     width: 100%;
-    display: flex; /* Usando flexbox para alinhar os cards */
+    display: flex;
+    /* Usando flexbox para alinhar os cards */
     flex-direction: column;
-    justify-content: flex-end; /* Alinha os cards à direita */
-    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha, se necessário */
+    justify-content: flex-end;
+    /* Alinha os cards à direita */
+    flex-wrap: wrap;
+    /* Permite que os cards quebrem para a próxima linha, se necessário */
     align-items: flex-end;
     gap: 17px;
 }
 
 .service-card {
     background-color: var(--white);
-    padding: 15px; /* Diminuí o padding para reduzir o tamanho */
+    padding: 15px;
+    /* Diminuí o padding para reduzir o tamanho */
     /* margin-bottom: 20px;
     margin-right: 30rem; */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
     width: 600px;
-    
+
     /* Você pode usar um valor percentual, por exemplo, width: 80%; */
     margin-right: 44px;
     background-color: #fff;
     margin-top: 10px;
-    
-    
+
+
 }
+
 .box {
     display: flex;
     width: 400px;
-    height: 352px;
+    height: auto;
     flex-direction: column;
     border-radius: 5px;
-    border: 2px solid rgb(0,0,0,0.3);
+    border: 2px solid rgba(146, 146, 146, 0.3);
+    background-color: #fff;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-top: 35px;
 }
 
 .forma {
     width: 100%;
     height: 36px;
     border: 1px solid;
-
 }
 
 .input-form {
@@ -265,36 +266,57 @@ footer {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    padding: 15px 0;
     
-
 }
 
-.input-form  input[type="text"]{
-    padding-left: 5px;
-
+.input-form input[type="text"] {
+    padding-left: 10px;
+    font-weight: 700;
+    border: 2px solid rgba(146, 146, 146, 0.3);
+    border-radius: 4px;
 }
 
 .button {
-    background-color: black;
+    background-color: #333333;
     font-size: 15px;
     color: white;
     width: 350px;
     height: 36px;
     justify-content: center;
+    font-weight: bolder;
+    border: none;
 }
 
 .etiqueta {
     align-self: start;
     margin-bottom: 5px;
-    font-family: "worksans", sans-serif; 
-    color: black ;
-    font-weight: bold; 
+    font-family: "worksans", sans-serif;
+    color: black;
+    font-weight: bold;
     font-size: 14px;
     line-height: 1.43;
+    font-weight: 500;
 }
-.separador{
-display:flex;
-gap:20px;
 
+.separador {
+    display: flex;
+    gap: 20px;
+}
 
+#frete-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin: 40px 20px;
+    padding-left: 100px;
+}
+
+.services-wrapper {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
