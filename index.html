@@ -4,41 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DummyExpress</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="menu-item"><a class="item-link" href="index.html">Home</a></li>
-                <li class="menu-item"><a class="item-link" href="calcular-frete.html">Calcular Frete</a></li>
-                <li class="menu-item"><a class="item-link" href="contato.html">Contato</a></li>
+    <header class="bg-white block">
+        <nav class="w-3/9">
+            <ul class="flex flex-row justify-around w-auto mx-80 text-lg font-bold">
+                <li class="menu-item px-20 py-4 w-fit"><a class="item-link" href="index.html">Home</a></li>
+                <li class="menu-item px-20 py-4 w-fit"><a class="item-link" href="calcular-frete.html">Calcular Frete</a></li>
+                <li class="menu-item px-20 py-4 w-fit"><a class="item-link" href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="welcome-section">
-        <h1>Bem-vindo à DummyExpress!</h1>
-        <p>Seu parceiro confiável <br> para calcular o frete do seu pacote com rapidez e precisão</p>
-        <div class="features">
-            <div class="feature-item">
-                <img src="caminhao-removebg-preview.png" alt="Entrega Rápida">
+    <section class="welcome-section bg-gray-50 flex flex-col items-center text-center h-screen">
+        <h1 class="text-3xl font-bold pt-12 pb-6">Bem-vindo à DummyExpress!</h1>
+        <p class="font-semibold mb-20">Seu parceiro confiável <br> para calcular o frete do seu pacote com rapidez e precisão</p>
+        <div class="features flex flex-row w-auto justify-around font-bold text-xl mb-12">
+            <div class="feature-item block text-center bg-white p-20 mx-4">
+                <img class="m-auto" src="caminhao-removebg-preview.png" alt="Entrega Rápida">
                 <h3>Entrega Rápida</h3>
             </div>
-            <div class="feature-item">
-                <img src="calculadora-removebg-preview.png" alt="Preços Transparentes">
+            <div class="feature-item block text-center bg-white p-20 mx-4">
+                <img class="m-auto" src="calculadora-removebg-preview.png" alt="Preços Transparentes">
                 <h3>Preços Transparentes</h3>
             </div>
-            <div class="feature-item">
-                <img src="atendente-removebg-preview.png" alt="Suporte 24/7">
+            <div class="feature-item block text-center bg-white p-20 mx-4">
+                <img class="m-auto" src="atendente-removebg-preview.png" alt="Suporte 24/7">
                 <h3>Suporte 24/7</h3>
             </div>            
         </div>
         
-        <a href="calcular-frete.html" class="cta-button">Simular Cálculo de Frete</a>
+        <a href="calcular-frete.html" class="cta-button bg-zinc-900 text-white font-bold rounded-md py-4 px-12 block w-fit">Simular Cálculo de Frete</a>
   
     </section>
-    <footer class="footer-freight">
+    <footer class="footer-freight bg-slate-950 text-white block text-center p-5 text-sm">
         © DummyExpress
     </footer>
 </body>
