@@ -53,7 +53,7 @@ nav a {
 .welcome-section {
     height: calc(80vh + 15px);
     text-align: center;
-    padding: 40px;
+    padding: 60px;
     background-color: #f0f0f0;
     margin-bottom: 1px;
 }
@@ -268,7 +268,7 @@ footer {
     align-items: center;
     margin-bottom: 10px;
     padding: 15px 0;
-    
+
 }
 
 .input-form input[type="text"] {
@@ -333,3 +333,48 @@ footer {
     }
 }
 
+
+@media (max-width: 426px) {
+    header {
+        font-size: 15px;
+        display: none;
+        
+    }
+
+    #contato{
+        width: 90vw;
+        margin: 6vh 13px;
+    }
+
+    #contato label{
+        padding: 15px 21px;
+    }
+
+    #contato input{
+        width: 286px;
+        height: 40px;
+    }
+
+    #contato textarea {
+        width: 280px;
+    }
+
+    #contato button{
+        width: 116px;
+        padding: 7px;
+        margin: 1rem 8rem;
+    }
+
+    .features {
+        display: inline-table;
+    }
+    .feature-item{
+        margin: 15px;
+    }
+
+    .footer-freight {
+        margin-top: 310px;
+        
+    }
+    
+}
