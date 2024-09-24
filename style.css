@@ -53,7 +53,7 @@ nav a {
 .welcome-section {
     height: calc(80vh + 15px);
     text-align: center;
-    padding: 40px;
+    padding: 60px;
     background-color: #f0f0f0;
     margin-bottom: 1px;
 }
@@ -321,9 +321,11 @@ footer {
     gap: 2rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     header {
         font-size: 15px;
+        display: none;
+        
     }
 
     #contato{
@@ -349,4 +351,17 @@ footer {
         padding: 7px;
         margin: 1rem 8rem;
     }
+
+    .features {
+        display: inline-table;
+    }
+    .feature-item{
+        margin: 15px;
+    }
+
+    .footer-freight {
+        margin-top: 310px;
+        
+    }
+    
 }
