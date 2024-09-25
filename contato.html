@@ -5,28 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li class="menu-item"><a class="item-link" href="index.html">Home</a></li>
-                <li class="menu-item"><a class="item-link" href="calcular-frete.html">Calcular Frete</a></li>
-                <li class="menu-item"><a class="item-link" href="contato.html">Contato</a></li>
+<body class="bg-zinc-100 w-full">
+    <header id="" class="bg-white w-full">
+        <nav class="">
+            <ul class="flex justify-center gap-10">
+                <li class=""><a href="index.html" class="text-md font-bold py-5 block">Home</a></li>
+                <li class=""><a href="calcular-frete.html" class="text-md font-bold py-5 block">Calcular Frete</a></li>
+                <li class=""><a href="contato.html" class="text-md font-bold py-5 block">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <form action="#" id="contato">
-        <label for="nome">Nome *</label>
-        <input type="text" name="nome" id="nome">
-        <label for="email">Email *</label>
-        <input type="email" name="email" id="email">
-        <label for="mensagem">Mensagem *</label>
-        <textarea name="mensagem" id="mensagem"></textarea>
-        <button type="submit">Enviar</button>
-    </form>
-    <footer>
-        © DummyExpress
-    </footer>
+    <div class="border w-[770px] border border-stone-500 flex justify-center py-5 my-10 mx-80 border rounded-lg bg-white">
+        
+        <form class="flex flex-col w-96 ">
+            <label class="font-sans font-medium" for="nome">Nome *</label>
+            <input class="border border-gray-500" type="text" name="nome" id="nome">
+            <label class="font-sans mt-10 font-medium" for="email">Email *</label>
+            <input class="border border-gray-500" type="email" name="email" id="email">
+            <label class="font-sans mt-10 font-medium" for="mensagem">Mensagem *</label>
+            <textarea class="border border-gray-500 py-10" name="mensagem" id="mensagem"></textarea>
+            
+            <div class="flex justify-end mt-10">
+                <button type="submit" class="bg-gray-800 text-white font-bold py-1 px-28 rounded-sm hover:bg-gray-900">Enviar</button>
+              </div>
+        </form>
+    </div>
+    <footer class="bg-black text-white py-5 mt-40 text-center">
+        <p>© DummyExpress</p>
+      </footer>
 </body>
 </html>
