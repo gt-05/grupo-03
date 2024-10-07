@@ -21,45 +21,45 @@
     </header>
 
     <div id="frete-container">
-        <div class="box">
-            <div class="input-form">
-                <label class="etiqueta"> CEP de origem*</label>
-                <input type="text" placeholder="00.000-000" class="forma">
-            </div>
 
-            <div class="input-form">
-                <label class="etiqueta"> CEP de destino*</label>
-                <input type="text" placeholder="00.000-000" class="forma">
-            </div>
-            <div class="separador">
+        <form class="box" id="calcular-frete">
+
+            <div class="box">
                 <div class="input-form">
-                    <label class="etiqueta">Peso*</label>
-                    <input type="text" placeholder="1.5" class="forma inputmenor">
+                    <label class="etiqueta"> CEP de origem*</label>
+                    <input type="text" placeholder="00.000-000" class="forma" id="cep-origem">
                 </div>
-
+                
                 <div class="input-form">
-                    <label class="etiqueta"> Quantidade*</label>
-                    <input type="text" placeholder="2" class="forma inputmenor">
+                    <label class="etiqueta"> CEP de destino*</label>
+                    <input type="text" placeholder="00.000-000" class="forma" id="cep-destino">
                 </div>
-            </div>
-
-
-            <button class="button">Calcular frete</button>
+                <div class="separador">
+                    <div class="input-form">
+                        <label class="etiqueta">Peso*</label>
+                        <input type="text" placeholder="1.5" class="forma inputmenor" id="peso">
+                    </div>
+                    
+                    <div class="input-form">
+                        <label class="etiqueta"> Quantidade*</label>
+                        <input type="text" placeholder="2" class="forma inputmenor" id="quantidade">
+                    </div>
+                </div>
+                
+                
+                <button class="button">Calcular frete</button>
+            </form>
 
         </div>
         <div class="services-wrapper">
             <div class="address-container">
                 <div class="address-box">
                     <h3>Origem</h3>
-                    <p>
-                        Rua XYZ, Centro, Fortaleza, Ceará, 00000-000
-                    <p>
+                    <span id="endereco-origem"></span> 
                 </div>
                 <div class="address-box">
                     <h3>Destino</h3>
-                    <p>
-                        Rua XYZ, Centro, Fortaleza, Ceará, 00000-000
-                    <p>
+                    <span id="endereco-destino"></span> 
                 </div>
             </div>
             <div class="service-container">
@@ -154,6 +154,8 @@
     <footer class="footer-freight">
         © DummyExpress
     </footer>
+
+    <script src="js/main.js" type="module"></script>
 </body>
 
 </html>
