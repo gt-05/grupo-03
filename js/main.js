@@ -24,4 +24,3 @@ formCalcularFrete.addEventListener('submit', function(event) {
     });
 
 });
-
