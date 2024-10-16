@@ -40,7 +40,7 @@ export default function Slide() {
 
 	return (
 		<div className="gallery max-w-[1440px] max-h-[681px]">
-			<div className="slider relative overflow-hidden">
+			<div className="slider relative overflow-hidden rounded-xl">
 				<div 
 					className="slides flex ease-in-out duration-500"
 					style={css}>
