@@ -5,8 +5,7 @@ import Search from '../assets/search.svg'
 
 export function Header() {
     return (
-        <React.Fragment>
-            <header className='w-full'>
+        <>            <header className='w-full'>
                 <div className='flex  px-40 py-10 align-center justify-evenly'>
                     <div id="logo-wrapper" className='flex'>
                         <img src={Logo} alt="Logo Digital College"className='size-10'/>
@@ -18,6 +17,6 @@ export function Header() {
                     </div>
                 </div>
             </header>
-        </React.Fragment>
+        </>
     )
 }
