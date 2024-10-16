@@ -3,7 +3,7 @@ import '../styles/header.css'
 import Logo from '../assets/logo.svg'
 import Search from '../assets/search.svg'
 
-export function Header() {
+export default function Header() {
     return (
         <>            <header className='w-full'>
                 <div className='flex  px-40 py-10 align-center justify-evenly'>

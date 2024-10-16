@@ -6,10 +6,9 @@ import ProductListing from "./components/ProductListing"
 function App() {
   return (
    <>
-   <Header/>
-   <Slide />
-   <ProductCard/>
-   <ProductListing />
+    <HomePage />
+   
+   
    </>
   )
 }
