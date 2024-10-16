@@ -3,7 +3,7 @@ import '../styles/header.css'
 import Logo from '../assets/logo.svg'
 import Search from '../assets/search.svg'
 
-export function Header() {
+export default function Header() {
     return (
         <React.Fragment>
             <header className='w-full'>

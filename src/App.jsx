@@ -1,11 +1,11 @@
-import { Header } from "./components/Header"
-import Slide from "./components/Slide"
+import HomePage from "./pages/HomePage"
+import Home from "./pages/HomePage"
 
 function App() {
   return (
    <>
-   <Header/>
-   <Slide />
+    <HomePage />
+   
    
    </>
   )
