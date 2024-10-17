@@ -13,7 +13,7 @@ export default function Slide() {
 		{ src: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/home-slide-4.jpeg" },
 		{ src: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/home-slide-5.jpeg" },
 		{ src: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/home-slide-6.jpeg" },
-		{ src: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/home-slide-7.jpeg" },
+		{ src: "https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/refs/heads/main/public/home-slide-8.jpeg" },
 	];
 
 	function handlerSlide(direction) {
@@ -39,7 +39,7 @@ export default function Slide() {
 
 
 	return (
-		<div className="gallery max-w-[1440px] max-h-[681px]">
+		<div className="gallery max-w-[1600px] max-h-[900px] ml-1 my-1">
 			<div className="slider relative overflow-hidden rounded-xl">
 				<div 
 					className="slides flex ease-in-out duration-500"
