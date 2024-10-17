@@ -37,6 +37,18 @@ export default function Slide() {
 		)
 	});
 
+	var swiper = new Swiper(".default-carousel", {
+		loop: true,
+		pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+		},
+		navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+		},
+		});
+
 
 	return (
 		<div className="gallery max-w-[1600px] max-h-[900px] ml-1 my-1">
