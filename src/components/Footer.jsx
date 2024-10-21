@@ -11,9 +11,9 @@ export default function Footer() {
         <React.Fragment>
             <footer className='w-full px-40 pb-20 bg-[--dark-gray] text-[--white] flex items-start justify-between'>
                 <div className="flex flex-col w-80">
-                    <img src={LogoFooter} alt="Logo do Footer" className='w-80 pt-12 pb-6'/>
+                    <img src={LogoFooter} alt="Logo do Footer" className='w-64 pt-12 pb-6'/>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <div id="social" className='flex'>
+                    <div id="social" className='pt-8 flex w-36 justify-between'>
                         <img src={Facebook} alt="Facebook" />
                         <img src={Instagram} alt="Instagram" />
                         <img src={Twitter} alt="Twitter" />
