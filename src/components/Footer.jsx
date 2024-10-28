@@ -20,8 +20,8 @@ export default function Footer() {
                             <img src={Twitter} alt="Twitter" />
                         </div>
                     </div>
-                    <div className="flex flex-col pt-12 pb-6 w-48">
-                        <h3 className='font-bold pb-6'>Informação</h3>
+                    <div className="flex flex-col pt-12 pb-6 w-48 leading-8 text-[--dark-gray-3]">
+                        <h3 className='font-bold pb-6 text-[--white]'>Informação</h3>
                         <p>Sobre Drip Store</p>
                         <p>Segurança</p>
                         <p>Wishlist</p>
@@ -29,21 +29,21 @@ export default function Footer() {
                         <p>Trabalhe conosco</p>
                         <p>Meus Pedidos</p>
                     </div>
-                    <div className="flex flex-col pt-12 pb-6 w-48">
-                        <h3 className='font-bold pb-6'>Categorias</h3>
+                    <div className="flex flex-col pt-12 pb-6 w-48 leading-8 text-[--dark-gray-3]">
+                        <h3 className='font-bold pb-6 text-[--white]'>Categorias</h3>
                         <p>Camisetas</p>
                         <p>Calças</p>
                         <p>Bonés</p>
                         <p>Headphones</p>
                         <p>Tênis</p>
                     </div>
-                    <div className="flex flex-col pt-12 pb-6 w-48">
-                        <h3 className='font-bold pb-6'>Contato</h3>
+                    <div className="flex flex-col pt-12 pb-6 w-48 text-[--dark-gray-3]">
+                        <h3 className='font-bold pb-6 leading-8 text-[--white]'>Contato</h3>
                         <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
-                        <p>(85) 3051-3411</p>
+                        <p className='leading-8'>(85) 3051-3411</p>
                     </div>
                 </div>
-                <div id="trademark" className='   bg-[--dark-gray] text-[--white] flex items-center justify-center text-sm'>
+                <div id="trademark" className='bg-[--dark-gray] text-[--white] flex items-center justify-center text-sm'>
                     <div className='w-4/5 border-t py-10 flex items-center justify-center'>
                         @ 2022 Digital College
                     </div>
