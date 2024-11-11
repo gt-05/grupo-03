@@ -1,7 +1,4 @@
-import { Header } from "./components/Header"
-import Slide from "./components/Slide"
-import ProductCard from  "./components/ProductCard"
-import ProductListing from "./components/ProductListing"
+import HomePage from "./pages/HomePage"
 
 function App() {
   return (
