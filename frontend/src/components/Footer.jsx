@@ -1,54 +1,59 @@
-import React from 'react'
-import '../styles/footer.css'
-import LogoFooter from '../assets/footer.svg'
-import Facebook from '../assets/facebook.svg'
-import Instagram from '../assets/instagram.svg'
-import Twitter from '../assets/twitter.svg'
+import React from 'react';
+import logo from '../assets/images/logo.footer.svg';
+import midias from '../assets/images/midias.svg';
+const Footer = () => {
+  return (
+    <footer className="bg-gray-900 text-white p-8 flex flex-wrap justify-around">
+      {/* Logo e descrição */}
+      <div className="mb-8 md:mb-0 w-80">
+        <img src={logo} alt="Drip Store Logo" className="w-24 mb-4 w-64" />
+        <p className="text-gray-400 mb-4 mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.
+        </p>
+        <div className="flex space-x-4">
+          {/* Ícones de mídias sociais */}
+          <a href="#"><img src={midias} alt="midias" /></a>
+        </div>
+      </div>
 
+      {/* Informação */}
+      <div className="mb-8 md:mb-0">
+        <h4 className="text-xl font-semibold mb-2">Informação</h4>
+        <ul className="space-y-2">
+          <li><a href="#" className="text-gray-400 hover:text-white">Sobre Drip Store</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Segurança</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Wishlist</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Blog</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Trabalhe conosco</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Meus Pedidos</a></li>
+        </ul>
+      </div>
 
-export default function Footer() {
-    return (
-        <React.Fragment>
-            <footer className='w-full'>
-                <div className='px-40 pb-20 bg-[--dark-gray] text-[--white] flex items-start justify-evenly'>
-                    <div className="flex flex-col w-80 mr-24">
-                        <img src={LogoFooter} alt="Logo do Footer" className='w-64 pt-12 pb-6' />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        <div id="social" className='pt-8 flex w-36 justify-between'>
-                            <img src={Facebook} alt="Facebook" />
-                            <img src={Instagram} alt="Instagram" />
-                            <img src={Twitter} alt="Twitter" />
-                        </div>
-                    </div>
-                    <div className="flex flex-col pt-12 pb-2 w-48 leading-8 text-[--white]">
-                        <h3 className='font-bold pb-6 text-[--white]'>Informação</h3>
-                        <p>Sobre Drip Store</p>
-                        <p>Segurança</p>
-                        <p>Wishlist</p>
-                        <p>Blog</p>
-                        <p>Trabalhe conosco</p>
-                        <p>Meus Pedidos</p>
-                    </div>
-                    <div className="flex flex-col pt-12 pb-2 w-48 leading-8 text-[--white]">
-                        <h3 className='font-bold pb-6 text-[--white]'>Categorias</h3>
-                        <p>Camisetas</p>
-                        <p>Calças</p>
-                        <p>Bonés</p>
-                        <p>Headphones</p>
-                        <p>Tênis</p>
-                    </div>
-                    <div className="flex flex-col pt-12 pb-2 w-48 text-[--white]">
-                        <h3 className='font-bold pb-6 leading-8 text-[--white]'>Contato</h3>
-                        <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
-                        <p className='leading-8'>(85) 3051-3411</p>
-                    </div>
-                </div>
-                <div id="trademark" className='bg-[--dark-gray] text-[--white] flex items-center justify-center text-sm'>
-                    <div className='w-4/5 border-t py-10 flex items-center justify-center'>
-                        @ 2022 Digital College
-                    </div>
-                </div>
-            </footer>
-        </React.Fragment>
-    )
-}
+      {/* Categorias */}
+      <div className="mb-8 md:mb-0">
+        <h4 className="text-xl font-semibold mb-2">Categorias</h4>
+        <ul className="space-y-2">
+          <li><a href="#" className="text-gray-400 hover:text-white">Camisetas</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Calças</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Bonés</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Headphones</a></li>
+          <li><a href="#" className="text-gray-400 hover:text-white">Tênis</a></li>
+        </ul>
+      </div>
+
+      {/* Contato */}
+      <div className="mb-8 md:mb-0 w-64">
+        <h4 className="text-xl font-semibold mb-2">Contato</h4>
+        <p className="text-gray-400">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+        <p className="text-gray-400">(85) 3051-3411</p>
+      </div>
+
+      {/* Rodapé com direitos autorais */}
+      <div className="w-full text-center mt-8 border-t border-gray-700 pt-4">
+        <p className="text-gray-400">&copy; 2022 Digital College.</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
