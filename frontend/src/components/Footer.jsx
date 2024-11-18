@@ -20,7 +20,7 @@ export default function Footer() {
                             <img src={Twitter} alt="Twitter" />
                         </div>
                     </div>
-                    <div className="flex flex-col pt-12 pb-2 w-48 leading-8 text-[--dark-gray-3]">
+                    <div className="flex flex-col pt-12 pb-2 w-48 leading-8 text-[--white]">
                         <h3 className='font-bold pb-6 text-[--white]'>Informação</h3>
                         <p>Sobre Drip Store</p>
                         <p>Segurança</p>
@@ -29,7 +29,7 @@ export default function Footer() {
                         <p>Trabalhe conosco</p>
                         <p>Meus Pedidos</p>
                     </div>
-                    <div className="flex flex-col pt-12 pb-2 w-48 leading-8 text-[--dark-gray-3]">
+                    <div className="flex flex-col pt-12 pb-2 w-48 leading-8 text-[--white]">
                         <h3 className='font-bold pb-6 text-[--white]'>Categorias</h3>
                         <p>Camisetas</p>
                         <p>Calças</p>
@@ -37,7 +37,7 @@ export default function Footer() {
                         <p>Headphones</p>
                         <p>Tênis</p>
                     </div>
-                    <div className="flex flex-col pt-12 pb-2 w-48 text-[--dark-gray-3]">
+                    <div className="flex flex-col pt-12 pb-2 w-48 text-[--white]">
                         <h3 className='font-bold pb-6 leading-8 text-[--white]'>Contato</h3>
                         <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
                         <p className='leading-8'>(85) 3051-3411</p>
