@@ -24,7 +24,7 @@ function ProductListing ({maxNumber}) {
     }, []);
    return(
 
-<div className="container flex justify-evenly flex-wrap"> 
+<div className="container flex justify-evenly flex-wrap "> 
 {products.slice(0, maxNumber).map((product, index) => {
                 let image = product.images[0]?.url ?? product.placeHolder_image;
                 
