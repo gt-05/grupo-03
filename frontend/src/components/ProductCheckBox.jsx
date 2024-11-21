@@ -1,19 +1,26 @@
 import ProductListing from "../components/ProductListing.jsx";
 
-function ProductCheckBox() {
+import { useState } from "react";
+
+export default function ProductCheckBox() {
+
+    const [orderBy, setOrderBy] = useState('maior');
+
     return (
         <>
-            <div>
-                <div className="flex justify-between my-[30px]">
-                    <span className="self-center text-[18.7px]">
-                        <b>Resultados para "Tênis" - </b>389 produtos
+        <div>
+            <div className="flex justify-between my-[30px]">
+                <span className="self-center text-[18.7px]">
+                    <b>Resultados para Tênis - </b>
                     </span>
-                    <select className="flex text-dark_gray_2 text-[16px] bg-light_gray_3 border-solid border-2 rounded-[4px] border-black  w-[300px] h-[40px]" name="" id="">
-                        <option value="Maior preço">Ordernar por: Menor preço</option>
-                        <option value="Menor preço">Ordernar por: Maior preço</option>
-                    </select>
-                </div>
-                <div className="flex">
+                <form>
+                <select className="flex text-dark_gray_2 text-[16px] bg-light_gray_3 border-solid border-2 rounded-[4px] border-black  w-[300px] h-[40px]" value={orderBy} onChange={event => setOrderBy(event.target.value)}>
+                    <option value="menor">Ordenar por: Menor preço</option>
+                    <option value="maior">Ordenar por: Maior preço</option>
+                </select>
+            </form>
+            </div>
+            <div className="flex">
                     <div className="bg-[white] min-w-[308px] h-[750px] px-[30px] py-[30px] mr-[30px]"> {/* Div Principal engloba tudo */}
                         <form action="" className="">
 
@@ -101,10 +108,9 @@ function ProductCheckBox() {
                             </div>
                         </form>
                     </div>
-                    <ProductListing />
-                </div>
-            </div>
-        </>
+        <ProductListing orderBy={orderBy} />
+           </div>
+        </div>
+    </>
     )
 }
-export default ProductCheckBox;
