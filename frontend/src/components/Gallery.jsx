@@ -43,10 +43,10 @@ export default function Gallery({width = '1600px', height = '900px', hidden}) {
 		);
 	});
 
-	let tagsImg = imgs.map(function (img) {
+	let tagsImg = imgs.map(function (img, index) {
 		return (
-			<div class="slide min-w-full">
-				<img class="w-full h-full object-cover" src={img.src} />
+			<div key={index} className="slide min-w-full">
+				<img className="w-full h-full object-cover" src={img.src} />
 			</div>
 		)
 	});

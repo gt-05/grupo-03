@@ -26,9 +26,10 @@ export default function ProductListing (props) {
     return (
         <Section>
             <div className="flex gap-[24px] justify-center flex-wrap mt-3 mb-3">
-                {products.map(product => {
+                {products.map((product,index) => {
                     let image = product.images[0]?.url ?? product.placeholder_image
                     return <ProductCard 
+                    key={index}
                     image={image}
                     name={product.name}
                     price={product.price}

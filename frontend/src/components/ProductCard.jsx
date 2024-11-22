@@ -10,7 +10,7 @@ function ProductCard(props) {
                 <div>
                     <p className="text-[#8f8f8f] text-[16px] font-[700] leading-[38px]">Tênis</p>
                     <a href={"p/" + props.slug}><p className="text-[28px] font-[400] leading-[38px]">{props.name}</p></a>
-                    <p className="text-[24px] font-[700] leading-[38px]"><s class="text-[#8f8f8f] text-[24px] font-[400] leading-[38px]">{props.price}</s> {props.priceDiscount}</p>
+                    <p className="text-[24px] font-[700] leading-[38px]"><s className="text-[#8f8f8f] text-[24px] font-[400] leading-[38px]">{props.price}</s> {props.priceDiscount}</p>
                 </div>
             </div>
         </>
