@@ -33,23 +33,23 @@ export default function ProductCheckBox() {
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="adiddas" name="adiddas" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="adiddas"> Adiddas</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="adiddas"> Adiddas</label>
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="calenciaga" name="calenciaga" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="calenciaga"> Calenciaga</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="calenciaga"> Calenciaga</label>
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="k-swiss" name="k-swiss" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="k-swiss"> K-swiss</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="k-swiss"> K-swiss</label>
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="nike" name="nike" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="nike"> Nike</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="nike"> Nike</label>
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="puma" name="puma" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="puma"> Puma</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="puma"> Puma</label>
                                 </div>
                             </div>
 
@@ -59,19 +59,19 @@ export default function ProductCheckBox() {
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="esporte-e-lazer" name="esporte-e-lazer" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="esporte-e-lazer"> Esporte e lazer</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="esporte-e-lazer"> Esporte e lazer</label>
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="casual" name="casual" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="casual"> Casual</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="casual"> Casual</label>
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="utilitario" name="utilitario" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="utilitario"> Utilitário</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="utilitario"> Utilitário</label>
                                 </div>
                                 <div className="flex flex items-center mb-2">
                                     <input type="checkbox" id="corrida" name="corrida" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="corrida"> Corrida</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="corrida"> Corrida</label>
                                 </div>
                             </div>
 
@@ -81,15 +81,15 @@ export default function ProductCheckBox() {
                                 </div>
                                 <div className="flex items-center mb-2">
                                     <input type="checkbox" id="masculino" name="masculino" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="masculino"> Masculino</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="masculino"> Masculino</label>
                                 </div>
                                 <div className="flex items-center mb-2">
                                     <input type="checkbox" id="feminino" name="feminino" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="feminino"> Feminino</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="feminino"> Feminino</label>
                                 </div>
                                 <div className="flex items-center mb-2">
                                     <input type="checkbox" id="unisex" name="unisex" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="unisex"> Unisex</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="unisex"> Unisex</label>
                                 </div>
                             </div>
 
@@ -99,11 +99,11 @@ export default function ProductCheckBox() {
                                 </div>
                                 <div className="flex items-center mb-2">
                                     <input type="radio" id="novo" name="estado" value="novo" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="novo">Novo</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="novo">Novo</label>
                                 </div>
                                 <div className="flex items-center mb-2">
                                     <input type="radio" id="usado" name="estado" value="usado" className="w-[22px] h-[22px] accent-[#C92071] " />
-                                    <label className="text-[14px] text-[#474747] pl-2" for="usado">Usado</label>
+                                    <label className="text-[14px] text-[#474747] pl-2" htmlFor="usado">Usado</label>
                                 </div>
                             </div>
                         </form>
